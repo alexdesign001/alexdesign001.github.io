@@ -76,7 +76,7 @@
 
     a {
       text-transform: uppercase;
-      color: $color-gray;
+      color: #bbb;
       margin-right: quarter($base-spacing-unit);
       margin-left: quarter($base-spacing-unit);
 
@@ -128,7 +128,7 @@
   &__meta {
     line-height: 1;
     font-size: $font-size-tiny;
-    color: $color-gray;
+    color: #bbb;
     text-transform: uppercase;
     letter-spacing: $global-letter-spacing;
   }
