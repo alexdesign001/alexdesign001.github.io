@@ -113,7 +113,7 @@
     clear: both;
     margin-bottom: $base-spacing-unit - half(quarter($base-spacing-unit));
     font-size: $font-size-base;
-    font-weight: $font-weight-bold;
+    font-weight: $font-weight-medium;
     transition: $global-transition;
   }
 
@@ -177,7 +177,6 @@
 
     .c-post-card__title-link {
       color: $color-brand;
-      font-weight: $font-weight-bold;
     }
   }
 }
