@@ -56,12 +56,13 @@
 
   &__content {
     flex-grow: 1;
+    background: $color-white;
   }
 
   &__tags {
     float: left;
     padding-left: half($base-spacing-unit);
-    margin-top: $base-spacing-unit + quarter($base-spacing-unit);
+    margin-top: 4px;
     margin-bottom: half($base-spacing-unit) + quarter($base-spacing-unit) + half(quarter($base-spacing-unit));
     border-left: 2px solid $color-brand;
     line-height: 1;
@@ -89,7 +90,6 @@
   &__share {
     float: right;
     position: relative;
-    top: $base-spacing-unit - half(quarter($base-spacing-unit));
     right: - quarter($base-spacing-unit);
     opacity: 0;
     transition: all $global-transition ease-in-out;
