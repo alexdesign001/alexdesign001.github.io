@@ -30,7 +30,7 @@ $grid-gutter: $base-spacing-unit;
   padding-left: $grid-gutter;
 
   @include mq($from: tablet) {
-    flex-grow: 1;
+    flex-grow: 0;
   }
 
   &--1-3-s {
