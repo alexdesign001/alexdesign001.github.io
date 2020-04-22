@@ -51,7 +51,7 @@
     display: block;
     padding: 0;
     font-size: $font-size-small;
-    color:#666
+    color:#666;
 
     @include attention() {
       color: $color-white;
