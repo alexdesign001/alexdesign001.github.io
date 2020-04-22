@@ -22,3 +22,9 @@ body {
   color: $color-white;
   background-color: $color-brand;
 }
+
+@include mq($until: tablet) {
+body{
+background-color: $color-white;
+}
+}
