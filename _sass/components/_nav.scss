@@ -10,8 +10,18 @@
     background-color: $color-white;
     padding: 0px double($base-spacing-unit);
 
+ @include mq($until: tablet) {
+      padding: 0;
+      
+    }
+
     &-wrap {
       text-align: center;
+
+  @include mq($until: tablet) {
+      text-align: right;
+      margin-top: -30px;
+    }
 
       &:after {
         content: '';
@@ -31,6 +41,7 @@
 
     @include mq($from: tablet) {
       display: inline-block;
+      padding-left:20px;
 
       &:not(:last-child) {
         margin-right: $base-spacing-unit;
