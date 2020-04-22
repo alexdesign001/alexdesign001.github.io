@@ -101,6 +101,7 @@ body {
   }
 
   .c-off-canvas-container {
+    padding: 0 30px;
     -webkit-perspective: 1000;
     transition: transform $global-transition cubic-bezier(.565, 1.65, .765, .88);
 
