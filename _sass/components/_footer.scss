@@ -6,7 +6,8 @@
   margin-top: double($base-spacing-unit);
   padding: double($base-spacing-unit) 0 double($base-spacing-unit) 0;
   border-top: half(quarter($base-spacing-unit)) solid $color-white;
-  background-color: $bg-gray;
+  background-color: #282828;
+  color: #666;
 
   @include mq($from: desktop) {
     padding: (quadruple($base-spacing-unit) + $base-spacing-unit) 0 $base-spacing-unit 0;
@@ -22,10 +23,10 @@
     color: $color-gray;
 
     a {
-      color: $color-gray;
+      color: #666;
 
       @include attention() {
-        color: $color-brand;
+        color: #fff;
       }
     }
 
