@@ -40,15 +40,9 @@
     display: inline-block;
     padding-left:24px;
 
-    @include mq($from: tablet) {
-      display: inline-block;
-      padding-left:24px
-   }
-
       &:not(:last-child) {
         margin-right: $base-spacing-unit;
       }
-    }
 
     @include mq($until: tablet) {
       display: inline-block;
