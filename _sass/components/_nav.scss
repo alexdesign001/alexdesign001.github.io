@@ -3,7 +3,6 @@
 \*------------------------------------*/
 
 .c-nav {
-  @include mq($from: tablet) {
     position: relative;
     z-index: 1;
     display: inline-block;
@@ -23,7 +22,6 @@
         top: 50%;
         left: 0px;
       }
-    }
   }
 
   &__item {
