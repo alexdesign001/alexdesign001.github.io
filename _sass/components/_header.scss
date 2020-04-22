@@ -5,6 +5,7 @@
 .c-header {
   padding: double($base-spacing-unit) 0;
   background: $color-white;
+  margin-bottom: 30px;
 
   @include mq($from: tablet) {
     padding: (double($base-spacing-unit) + $base-spacing-unit) 0;
