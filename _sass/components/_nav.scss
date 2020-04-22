@@ -46,6 +46,7 @@
 
     @include mq($until: tablet) {
       display: inline-block;
+      padding-left:24px;
     }
   }
 
