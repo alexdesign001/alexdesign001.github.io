@@ -27,7 +27,7 @@
   &__item {
     font-size: $font-size-small;
     letter-spacing: 2px;
-    text-transform: uppercase;
+    display: inline-block;
 
     @include mq($from: tablet) {
       display: inline-block;
