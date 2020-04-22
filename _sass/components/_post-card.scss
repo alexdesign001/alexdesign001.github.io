@@ -200,3 +200,14 @@
     }
   }
 }
+
+@include mq($until: tablet) {
+.c-post-card {
+  &__media {
+    border-radius: 8px;
+  }
+  &__content {
+    background: transparent;
+    padding: 20px 0;
+  }
+}
