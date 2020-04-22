@@ -26,7 +26,7 @@
         {% endfor %}
       </div>
 
-      <div class='c-post-card__share'>
+      <!-- <div class='c-post-card__share'>
         <a title='Share on Twitter'
           href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ base_path }}{{ post.url }}"
           onclick="window.open(this.href, 'twitter-share', 'width=550, height=235'); return false;">
@@ -48,7 +48,7 @@
             <svg class='icon__cnt'><use xmlns:xlink='http://www.w3.org/1999/xlink' xlink:href='#ei-sc-pinterest-icon'></use></svg>
           </div>
         </a>
-      </div>
+      </div> -->
 
       <div class='c-post-card__meta'>
         <time class='c-post-card__date' datetime='{{ post.date | date_to_xmlschema }}' title='{{ post.date | date: '%d %b %Y' }}'>{{ post.date | date: '%d %b %Y' }}</time>
