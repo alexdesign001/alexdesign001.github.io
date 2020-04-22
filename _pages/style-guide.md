@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Style Guide
+title: 指导
 image: '/images/pages/9.jpg'
 ---
 
