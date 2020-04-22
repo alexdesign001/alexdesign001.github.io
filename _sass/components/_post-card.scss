@@ -65,7 +65,7 @@
   &__tags {
     float: left;
     padding-left: half($base-spacing-unit);
-    margin-top: 4px;
+    margin-top: 8px;
     margin-bottom: half($base-spacing-unit) + quarter($base-spacing-unit) + half(quarter($base-spacing-unit));
     border-left: 2px solid $color-brand;
     line-height: 1;
@@ -131,6 +131,7 @@
     color: #bbb;
     text-transform: uppercase;
     letter-spacing: $global-letter-spacing;
+    margin-top:40px;
   }
 
   &__author {
