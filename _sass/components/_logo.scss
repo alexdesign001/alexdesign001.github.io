@@ -4,9 +4,9 @@
 
 .c-logo {
   @include mq($from: tablet) {
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: double($base-spacing-unit);
+    height: 20px;
+    width: 100px;
+    margin-top: -16px;
   }
 
   &__link {

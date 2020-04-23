@@ -43,6 +43,12 @@
     padding: 24px 20px 24px 30px;
     border-bottom: 1px solid #e7e7e7;
 
+    @include mq($from: tablet) {
+       margin-left:80px;
+       border-bottom: none;
+       margin-top: -20px;
+    }
+
     @include mq($from: desktop) {
       margin-left:120px;
       padding: double($base-spacing-unit);
@@ -80,4 +86,14 @@
       margin-bottom: 10px;
     }
   }
+}
+
+.pagetitle{
+   margin-left: 20px;
+   margin-top: 0 !important;
+
+  @include mq($from: tablet) {
+    margin-left: -20px;
+    }
+ 
 }

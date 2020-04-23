@@ -17,6 +17,14 @@
   img {
       position: relative;
       max-width: 100%;
+      cursor: default;
+    }
+  }
+
+   @include mq($from: tablet) {
+  p {
+      width: 84%;
+      margin-left: 40px;
     }
   }
 
@@ -25,6 +33,7 @@
       position: relative;
       min-width:120%;
       transform:translate(-6%);
+      cursor: default;
     }
   }
 
@@ -44,11 +53,16 @@
   h5,
   h6 {
     font-weight: $font-weight-medium;
+    width: 84%;
+    margin-left: 40px;
   }
 
   dd,
   ol,
   ul {
+    width: 84%;
+    margin-left: 60px;
+
     // Target Safari Only
     &:not(:root:root) {
       -webkit-padding-start: half($base-spacing-unit);

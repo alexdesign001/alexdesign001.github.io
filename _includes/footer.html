@@ -2,7 +2,7 @@
   <div class='o-grid'>
 
     <div class='o-grid__col o-grid__col--2-4-s o-grid__col--2-4-m o-grid__col--1-3-l'>
-      <p class='u-font-medium'>Tags</p>
+      <p class='u-font-medium'>标签</p>
 
       <ul class='c-footer-list o-plain-list'>
         {% for tag in site.tags %}
@@ -12,33 +12,14 @@
     </div>
 
     <div class='o-grid__col o-grid__col--2-4-s o-grid__col--2-4-m o-grid__col--1-3-l'>
-      <p class='u-font-medium'>Navigation</p>
+      <p class='u-font-medium'>导航</p>
 
-      <ul class='c-footer-list o-plain-list'>
+      <ul class='c-footer-list o-plain-list' style="margin-left: -24px">
         {% include navigation.html %}
       </ul>
     </div>
 
-   <!-- <div class='o-grid__col o-grid__col--4-4-s o-grid__col--2-4-m o-grid__col--1-3-l'>
-      <p class='u-font-medium'>Newsletter</p>
-
-      {% include subscribe-form.html %}
-    </div> -->
-
-    <div class='o-grid__col o-grid__col--full'>
-      <div class='c-footer__bottom'>
-        <div class='o-grid'>
-
-          <div class='o-grid__col o-grid__col--4-4-s o-grid__col--2-4-m'>
-            <div class='u-font-tiny c-footer__copyright'>
-              {{ site.time | date: '%Y' }} {{ site.title }}
-            </div>
-          </div>
-
-          <!-- <div class='o-grid__col o-grid__col--4-4-s o-grid__col--2-4-m'>
-            {% include social-icons.html %}
-          </div> -->
-
+  
         </div>
       </div>
     </div>

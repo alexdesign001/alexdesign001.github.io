@@ -18,9 +18,17 @@
     &-wrap {
       text-align: center;
 
+  @include mq($from: tablet) {
+      text-align: right;
+      text-align: right;
+      margin-top: -16px;
+      margin-bottom: -11px;
+    }
+
+
   @include mq($until: tablet) {
       text-align: right;
-      margin-top: -30px;
+      margin-top: -24px;
     }
 
       &:after {
