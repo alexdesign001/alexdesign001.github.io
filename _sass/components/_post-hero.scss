@@ -6,6 +6,8 @@
   &__media {
     background-color: $bg-gray;
     display:block;
+    width:115%;
+    transform: translate(-6%);
 
     @include mq($from: tablet) {
       display:none;
@@ -36,11 +38,7 @@
   }
 
   &__content {
-    background-color: $bg-gray;
-    border-style: solid;
-    border-width: 0 1px 1px 1px;
-    border-color: $color-border;
-    padding: $base-spacing-unit + half($base-spacing-unit);
+    padding: 12px 0;
 
     @include mq($from: desktop) {
       padding: double($base-spacing-unit);
