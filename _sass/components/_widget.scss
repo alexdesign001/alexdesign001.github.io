@@ -4,20 +4,13 @@
 
 .c-widget {
   padding: double($base-spacing-unit);
-  border-left: 1px solid $color-border;
-  border-right: 1px solid $color-border;
-  border-bottom: 1px solid $color-border;
   counter-reset: widget;
+  background: $bg-white;
+  border-radius: 4px;
+  margin-bottom: 20px;
 
   @include mq($until: tablet) {
     padding: double($base-spacing-unit);
-    border-right: 1px solid $color-border;
-  }
-
-  &:first-child {
-    @include mq($until: tablet) {
-      border-top: 1px solid $color-border;
-    }
   }
 
   &__title {
