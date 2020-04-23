@@ -3,7 +3,11 @@
 \*------------------------------------*/
 
 .c-content {
-  margin-bottom: double($base-spacing-unit);
+  margin-bottom: 16px;
+  margin-top: 20px;
+  width:110%;
+  transform:translate(-2%);
+  padding:8px 16px 8px 0;
 
   @include mq($until: tablet) {
     img {
