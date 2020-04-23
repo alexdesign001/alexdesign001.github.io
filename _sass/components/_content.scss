@@ -8,13 +8,12 @@
   width:110%;
   transform:translate(-2%);
   padding:8px 16px 8px 0;
-  background: $bg-white;
 
   @include mq($from: desktop) {
   p {
       width:90%;
     }
-img {
+  img {
       position: relative;
       min-width:90%;
     }
