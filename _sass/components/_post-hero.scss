@@ -44,7 +44,7 @@
     border-bottom: 1px solid #e7e7e7;
 
     @include mq($from: desktop) {
-      margin-left:94px;
+      margin-left:120px;
       padding: double($base-spacing-unit);
       display: flex;
       flex-direction: column;
