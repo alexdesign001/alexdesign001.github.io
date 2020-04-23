@@ -55,11 +55,6 @@
       background: #f4f4f4;
     }
 
-  @include mq($from: tablet) {
-    margin-left:120px;
-    border:none;
-  }
-
   &__date {
     font-size: $font-size-tiny;
     color: $color-gray;
