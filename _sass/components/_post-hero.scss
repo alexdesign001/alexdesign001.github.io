@@ -5,8 +5,10 @@
 .c-post-hero {
   &__media {
     background-color: $bg-gray;
+    display:none;
 
     @include mq($from: desktop) {
+      display:block;
       margin-right: - double($base-spacing-unit);
     }
   }
