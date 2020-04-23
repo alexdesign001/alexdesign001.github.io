@@ -12,6 +12,8 @@
   @include mq($until: tablet) {
     img {
       position: relative;
+      min-width:110%;
+      transform:translate(-5%);
     }
   }
 
