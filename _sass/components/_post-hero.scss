@@ -54,6 +54,10 @@
       border-color: #f4f4f4;
       background: #f4f4f4;
     }
+
+  @include mq($from: tablet) {
+    margin-left:120px;
+    border: none;
   }
 
   &__date {
