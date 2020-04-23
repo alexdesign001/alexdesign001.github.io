@@ -4,10 +4,9 @@
 
 .c-post-hero {
   &__media {
-    background-color: $bg-gray;
     display:block;
-    width:115%;
-    transform: translate(-6%);
+    width:120%;
+    transform: translate(-10%);
 
     @include mq($from: tablet) {
       display:none;
