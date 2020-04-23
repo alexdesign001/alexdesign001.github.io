@@ -8,12 +8,6 @@ body {
   font-family: $font-sans-serif;
   line-height: 26px;
   background-color: #f4f4f4;
-  border: quarter($base-spacing-unit) solid $bg-gray;
-
-  @include mq($from: tablet) {
-    border: half($base-spacing-unit) solid $bg-gray;
-  }
-
   -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
 }
