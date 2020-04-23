@@ -21,12 +21,13 @@
   }
 
   &__title {
-    padding-left: half($base-spacing-unit);
-    margin-bottom: $base-spacing-unit + half($base-spacing-unit) + quarter($base-spacing-unit);
-    line-height: 1;
+    padding-left: $base-spacing-unit;
+    margin-bottom: $base-spacing-unit + double($base-spacing-unit) + quarter($base-spacing-unit);
+    line-height: 1.2;
     letter-spacing: 2px;
     border-left: 2px solid $color-brand;
     font-size: $font-size-small;
     text-transform: uppercase;
+    font-weight: $font-weight-medium;
   }
 }
