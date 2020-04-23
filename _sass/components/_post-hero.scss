@@ -5,10 +5,10 @@
 .c-post-hero {
   &__media {
     background-color: $bg-gray;
-    display:none;
+    display:block;
 
     @include mq($from: tablet) {
-      display:block;
+      display:none;
     }
   }
 
