@@ -50,8 +50,9 @@
       flex-direction: column;
       justify-content: end;
       height: 100%;
-      border-width: 1px;
-      border-color: $color-border $color-border $color-border $color-white;
+      border-width: 0;
+      border-color: #f4f4f4;
+      background: #f4f4f4;
     }
   }
 
