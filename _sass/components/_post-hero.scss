@@ -7,9 +7,8 @@
     background-color: $bg-gray;
     display:none;
 
-    @include mq($from: desktop) {
+    @include mq($from: tablet) {
       display:block;
-      margin-right: - double($base-spacing-unit);
     }
   }
 
