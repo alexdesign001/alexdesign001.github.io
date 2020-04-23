@@ -11,9 +11,12 @@
   background: $bg-white;
 
   @include mq($from: desktop) {
-  .c-content {
+  p {
       width:90%;
-      transform:translate(0);
+    }
+img {
+      position: relative;
+      min-width:90%;
     }
   }
 
