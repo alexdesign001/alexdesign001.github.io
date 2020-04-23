@@ -65,6 +65,7 @@
     margin-bottom: 0;
     font-family: $font-sans-serif;
     font-size: $font-size-h3;
+    font-weight: $font-weight-medium;
 
     @include mq($from: tablet) {
       font-size: $font-size-h2;
