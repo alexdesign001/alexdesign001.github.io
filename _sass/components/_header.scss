@@ -7,8 +7,9 @@
   background: $color-white;
   margin-bottom: 30px;
 
-  @include mq($from: tablet) {
+  @include mq($until: tablet) {
     padding: (double($base-spacing-unit) + $base-spacing-unit) 0;
+    margin-bottom: 0;
   }
 
   @include mq($from: desktop) {
