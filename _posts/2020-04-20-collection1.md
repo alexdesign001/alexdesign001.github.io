@@ -8,7 +8,7 @@ image: '/images/posts/collection/preview.jpg'
 
 一些内宣期刊。
 
-![](/images/posts/collection/1.jpg)
+![](/images/posts/collection/5.jpg)
 
 ![](/images/posts/collection/2.jpg)
 
