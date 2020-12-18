@@ -3,7 +3,7 @@ layout: post
 title: 2016年作品集
 author: Alex
 tags: [网页设计]
-image: '/images/posts/collection/Screenshot.png'
+image: '/images/posts/collection/preview.png'
 ---
 
 一些内宣期刊。
