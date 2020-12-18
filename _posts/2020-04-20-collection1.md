@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 那些年的作品（一）
+title: 2016年作品集
 author: Alex
 tags: [网页设计]
-image: '/images/posts/collection/screenshot.png'
+image: '/images/posts/collection/screenshot.jpg'
 ---
 
 一些内宣期刊。
