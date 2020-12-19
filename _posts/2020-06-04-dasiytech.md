@@ -3,7 +3,7 @@ layout: post
 title: DAISYTECH企业官网交互原型
 author: Alex
 tags: [交互设计]
-image: '/images/posts/daisytech/preview.png'
+image: '/images/posts/daisytech/preview.jpg'
 ---
 
 FMNII期间为客户做的原型，涉及版权，数据已脱敏。
