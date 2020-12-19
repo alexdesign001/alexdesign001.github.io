@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DAISY TECHNOLOGY
+title: DAISYTECH企业官网交互原型
 author: Alex
 tags: [交互设计]
 image: '/images/posts/daisytech/preview.png'
