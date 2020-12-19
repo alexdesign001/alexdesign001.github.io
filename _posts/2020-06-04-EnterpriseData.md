@@ -6,7 +6,7 @@ tags: [交互设计]
 image: '/images/posts/enterprise/preview.png'
 ---
 
-企业数据服务解决方案系统，致力于帮助中小企业成长。我主导UI和交互设计。
+企业数据服务解决方案系统，致力于帮助中小企业成长。我主导UI和交互设
 
 
 
