@@ -2,7 +2,12 @@
   <a href='{{ site.baseurl }}/' class='c-nav__link'>首页</a>
 </li>
 
-{% for page in site.pages %}
+
+<li class='c-nav__item'>
+  <a href='../resume/index.html' target="_blank" class='c-nav__link'>关于我</a>
+</li>
+
+<!-- {% for page in site.pages %}
   {% unless page.name == '404.md' %}
     {% if page.title %}
       <li class='c-nav__item'>
@@ -10,4 +15,4 @@
       </li>
     {% endif %}
   {% endunless %}
-{% endfor %}
+{% endfor %} -->
